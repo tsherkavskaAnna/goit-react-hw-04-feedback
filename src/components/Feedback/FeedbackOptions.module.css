@@ -1,25 +1,11 @@
-.feedbackSection {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: '#010101';
-
-}
-
-.feedback {
-    width: 400px;
-    padding: 10px;
-    text-align: center; 
-    border: 2px solid grey;  
-}
-.feedbackNotice {
+  
+  .feedbackNotice {
     font-size: 30px;
-
-}
-.feedbackButtons > button {
+  
+  }
+  .feedbackButtons > button {
     border: none;
-    width: 80px;
+    width: 100px;
     border-radius: 5px;
     color: black;
     padding: 10px 15px;
@@ -33,18 +19,23 @@
     outline: none;
     box-shadow: 1px 2px 2px grey;
     
-}
-
-.feedbackStatistic {
-    font-size: 30px;
+  }
+  
+  .feedbackStatistic {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-size: 25px;
     
-}
-.statisticsList {
+  }
+  .statisticsList {
     list-style: none;
     font-size: 20px;
     text-align: justify;
-}
-.statisticsList :not(:last-child) {
+  }
+  .statisticsList :not(:last-child) {
     margin-bottom: 10px;
-
-}
+  
+  }
+  
+  
